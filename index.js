@@ -8,11 +8,6 @@ const { TOKEN, PREFIX, LOCALE } = require("./util/EvobotUtil");
 const path = require("path");
 const i18n = require("i18n");
 
-var port = process.env.PORT || 3000;
-app.listen(port, "0.0.0.0", function() {
-console.log("Listening on Port 3000");
-});
-
 const client = new Client({
   disableMentions: "everyone",
   restTimeOffset: 0
