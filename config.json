@@ -1,6 +1,6 @@
 {
-  "TOKEN": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  "YOUTUBE_API_KEY": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "TOKEN": "xxxxxxxxxxxxxxxxxxxx",
+  "YOUTUBE_API_KEY": "xxxxxxxxxxxxxxxxxxx",
   "SOUNDCLOUD_CLIENT_ID": "",
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "-",
