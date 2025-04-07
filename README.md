@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Features
+ 🌟 Features
 
 - 🎶 Play music directly from **YouTube**
 - 📃 Create and manage **dynamic queues**
@@ -15,9 +15,9 @@
 
 ---
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
-### 1. Clone the Repo
+ 1. Clone the Repo
 ```bash
 git clone https://github.com/sarvesh-x/nOxygenTheDJ.git
 cd nOxygenTheDJ
@@ -26,13 +26,13 @@ cd nOxygenTheDJ
 ```bash
   npm install
 ```
-4. Set up Environment
+3. Set up Environment
    Create a `.env` file in the root directory:
    ```bash
    DISCORD_TOKEN=your_discord_bot_token
    PREFIX=!
    ```
-5. Start the bot
+4. Start the bot
    ```bash
    node index.js
    ```
@@ -41,15 +41,15 @@ cd nOxygenTheDJ
 ##
 
 📜 Commands
-Command	Description
-!play <url/song>	Plays music from YouTube
-!pause	Pauses the song
-!resume	Resumes the song
-!skip	Skips the current track
-!stop	Stops playback and clears the queue
-!queue	Shows the current queue
-!np	Shows the song currently playing
-!loop	Loops the current song or queue
+Command                  Description
+!play <url/song>	      Plays music from YouTube
+!pause	                Pauses the song
+!resume	                Resumes the song
+!skip	                  Skips the current track
+!stop	                  Stops playback and clears the queue
+!queue	                Shows the current queue
+!np	                    Shows the song currently playing
+!loop	                  Loops the current song or queue
 
 ##
 
