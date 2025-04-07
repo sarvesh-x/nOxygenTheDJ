@@ -24,32 +24,38 @@ cd nOxygenTheDJ
 ```
 2. Install Dependencies
 ```bash
-  npm install
+npm install
 ```
 3. Set up Environment
-   Create a `.env` file in the root directory:
-   ```bash
-   DISCORD_TOKEN=your_discord_bot_token
-   PREFIX=!
-   ```
+Create a `.env` file in the root directory:
+```bash
+DISCORD_TOKEN=your_discord_bot_token
+PREFIX=!
+```
 4. Start the bot
-   ```bash
-   node index.js
-   ```
-   Invite the bot to your server using your OAuth2 bot URL.
+```bash
+node index.js
+```
+Invite the bot to your server using your OAuth2 bot URL.
 
 ##
 
 📜 Commands
-Command                  Description
-!play <url/song>	      Plays music from YouTube
-!pause	                Pauses the song
-!resume	                Resumes the song
-!skip	                  Skips the current track
-!stop	                  Stops playback and clears the queue
-!queue	                Shows the current queue
-!np	                    Shows the song currently playing
-!loop	                  Loops the current song or queue
+| Command Syntax            |  Description                                 |
+|---------------------------|----------------------------------------------|
+| `!play <url or search>`   | Plays music from a YouTube URL or search term|
+| `!pause`                  | Pauses the current track                     |
+| `!resume`                 | Resumes the paused track                     |
+| `!skip`                   | Skips the current song                       |
+| `!stop`                   | Stops playback and clears the queue          |
+| `!queue`                  | Displays the current music queue             |
+| `!np`                     | Shows the song currently playing             |
+| `!loop`                   | Toggles loop mode for the current track      |
+| `!loop queue`             | Loops the entire queue                       |
+| `!remove <position>`      | Removes a song at a specific position in the queue |
+| `!shuffle`                | Shuffles the current queue                  |
+| `!volume <0-100>`         | Sets the playback volume                    |
+| `!help`                   | Shows the list of available commands        |
 
 ##
 
